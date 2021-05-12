@@ -1,0 +1,7 @@
+{
+  "name": "homework4",
+  "version": "1.0.0",
+  "dependencies": {
+    "marked": "^2.0.3"
+  }
+}

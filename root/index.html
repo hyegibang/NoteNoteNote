@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+   <meta charset="utf-8">
+
+  <head>
+
+    <title>Note Note Note</title>
+
+    <link rel="stylesheet" href="style.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.min.js"></script>
+    <script type="module" src="./code.js"></script>
+
+  </head>
+
+
+  <body>
+
+    <div class="page">
+
+      <h1 style="font-family: cursive; text-align: center;"> Note Note Note </h1>
+
+        <div class="contextPage">
+                <div class = "tabList" >
+                    <div class = "tab_buttonDiv">
+                        <button type="button" id = "AddTab" class = "inputStyle" > Add </button>
+                        <button type="button" id= "DeleteTab" class = "inputStyle" disabled > Delete </button>
+                        <button type="button" id= "RenameTab" class = "inputStyle" disabled > Rename </button>
+                    </div>
+
+                    <select style = "width:70%; margin-bottom: 5px;" name="SelectTab" id="SelectTab">
+                    </select>
+
+                    <div class="tab" id="tab">
+                    </div>
+                </div>
+                <div class = "contentDiv" >
+                    <div class = "content_buttonDiv">
+                        <button type="button" class = "inputStyle" id="view_btn" disabled> View </button>
+                        <button type="button" class = "inputStyle" id="edit_btn" disabled> Edit </button>
+                        <button type="button" class = "inputStyle" id="save_btn" disabled> Save </button>
+
+
+                    </div>
+                    <div class = "right_buttonDiv">
+                        <input type="button" class="inputStyle" id="importFile" value="import" onclick="document.getElementById('file').click();" />
+                        <input type="file" style="display:none;" id="file" name="file"/>
+                        <button type="button" class = "inputStyle" id="exportFile"disabled> export </button>
+
+
+                    </div>
+
+                    <div class ="noteContainer">
+                    <div id="indvNote" class="indvNote">
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+  </body>
+
+</html>
+
