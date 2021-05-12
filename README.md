@@ -1,6 +1,6 @@
 # NoteNoteNote
 
-Hyegi Bang, Class of 2021, Olin College of Engineering 
+Hyegi Bang, Class of 2021, Olin College of Engineering \
 Web Development, Spring 2021, Final Project 
 
 Start the server by running
